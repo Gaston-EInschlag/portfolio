@@ -1,0 +1,78 @@
+
+/* normalize css */
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+#hero {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100%;
+    
+}
+
+#backgroundVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#presentation{
+    display: flex;
+    display: block;
+    text-align: center;
+    padding-top: 10rem;
+    font-family: WS;
+    color: #CC9544;
+    font-size: 5vw;
+}
+
+#more{
+    text-decoration: none;
+    border: solid #1C0A00;
+    text-align: center;
+    color: #CC9544; 
+    padding: 2.5%;
+    width: 25%;
+    margin-top: 10%;
+}
+
+#more:hover {background-color: #1c0a00bd; text-decoration:  none; }
+#more:hover #arrowrigth {display: none;}
+#more #arrowdown {display: none;}
+#more:hover #arrowdown {display: inline;}
+
+#playPauseBtn{
+    
+
+    font-family: "WS";
+    font-size: 2vw;
+    border: solid #1C0A00;
+    color: #CC9544;
+    text-decoration: none;
+    padding: 0.5%;
+    background-color: #1c0a0000;
+    width: 10%;
+    height: 5%;
+    margin-top: 1rem;
+}
+#playPauseBtn:hover {
+    background-color: #1c0a00bd;
+    text-decoration:  none;
+}
+
+@font-face {
+    font-family: "WS";
+    src: url("../fonts/WS.otf");}
+
+
+
+
